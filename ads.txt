@@ -1,0 +1,3 @@
+# Arquivo ads.txt preparado para configuração do Google AdSense.
+# Substitua a linha abaixo apenas pelos dados reais fornecidos pela sua conta do Google AdSense:
+# google.com, pub-0000000000000000, DIRECT, f08c47fec0942fa0

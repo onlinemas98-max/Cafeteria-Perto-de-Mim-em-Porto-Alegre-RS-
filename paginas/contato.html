@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Contato e Sugestão de Cafeterias | Cafeteria Perto de Mim RS</title>
+  <meta name="description" content="Envie sugestões de novas cafeterias no Rio Grande do Sul ou solicite correções de endereços e horários no diretório.">
+  <link rel="canonical" href="https://cafeteriapertodemim.com.br/paginas/contato.html">
+  <link rel="icon" href="../favicon.ico" type="image/x-icon">
+  <meta property="og:type" content="website">
+  <meta property="og:locale" content="pt_BR">
+  <meta property="og:site_name" content="Cafeteria Perto de Mim">
+  <meta property="og:title" content="Contato e Sugestão de Cafeterias | Cafeteria Perto de Mim RS">
+  <meta property="og:description" content="Envie sugestões de novas cafeterias no Rio Grande do Sul ou solicite correções de endereços e horários no diretório.">
+  <meta property="og:url" content="https://cafeteriapertodemim.com.br/paginas/contato.html">
+  <meta property="og:image" content="https://cafeteriapertodemim.com.br/imagens/cafeteria-principal.webp">
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="Contato e Sugestão de Cafeterias | Cafeteria Perto de Mim RS">
+  <meta name="twitter:description" content="Envie sugestões de novas cafeterias no Rio Grande do Sul ou solicite correções de endereços e horários no diretório.">
+  <link rel="stylesheet" href="../style.css">
+</head>
+<body>
+<header class="site-header" id="topo">
+  <div class="container header-inner">
+    <a class="brand-link" href="../index.html" aria-label="Cafeteria Perto de Mim - Página inicial">
+      <img class="brand-logo" src="../imagens/logo.webp" alt="Logotipo Cafeteria Perto de Mim - Diretório do Rio Grande do Sul" width="260" height="52">
+    </a>
+    <nav class="main-nav" aria-label="Navegação principal">
+      <ul>
+        <li><a href="../index.html">Início</a></li><li><a href="../rio-grande-do-sul/index.html">Cidades do RS</a></li><li><a href="../paginas/como-funciona.html">Como Funciona</a></li><li><a href="../paginas/sobre.html">Sobre</a></li><li><a href="../paginas/contato.html" aria-current="page">Contato</a></li>
+        <li><a class="nav-cta" href="../rio-grande-do-sul/index.html">Ver 30 Cidades</a></li>
+      </ul>
+    </nav>
+    <details class="mobile-menu">
+      <summary aria-label="Abrir menu de navegação">Menu</summary>
+      <ul>
+        <li><a href="../index.html">Início</a></li><li><a href="../rio-grande-do-sul/index.html">Cidades do RS</a></li><li><a href="../paginas/como-funciona.html">Como Funciona</a></li><li><a href="../paginas/sobre.html">Sobre</a></li><li><a href="../paginas/contato.html" aria-current="page">Contato</a></li>
+        <li><a href="../fontes-estabelecimentos.html">Fontes dos Dados</a></li>
+      </ul>
+    </details>
+  </div>
+</header>
+<nav class="breadcrumb" aria-label="Caminho estrutural">
+  <div class="container">
+    <ol>
+      <li><a href="../index.html">Início</a></li>
+      <li aria-current="page">Contato</li>
+    </ol>
+  </div>
+</nav>
+<main>
+  <section class="hero-section">
+    <div class="container hero-grid">
+      <div class="hero-content">
+        <p class="hero-kicker">Atualização Colaborativa</p>
+        <h1>Contato e Sugestões</h1>
+        <p class="hero-description">Indique uma cafeteria real no Rio Grande do Sul ou comunique ajustes de endereço, telefone ou horário de atendimento.</p>
+        <div class="hero-actions">
+          <a class="btn-primary" href="#formulario-contato">Enviar mensagem</a>
+          <a class="btn-secondary" href="../index.html">Voltar ao início</a>
+        </div>
+      </div>
+      <figure class="hero-media">
+        <img src="../imagens/cafeteria-principal.webp" alt="Xícara de café com arte no leite em ambiente de cafeteria" width="400" height="440">
+      </figure>
+    </div>
+  </section>
+  <section class="section" id="formulario-contato">
+    <div class="container prose">
+      <h2>Envie uma solicitação de inclusão ou correção</h2>
+      <p>Para preservar a exatidão do diretório, utilize o formulário abaixo informando a cidade do Rio Grande do Sul e os canais públicos oficiais do estabelecimento para verificação.</p>
+      <form class="contact-form" id="form-contato" novalidate>
+        <div class="form-group">
+          <label for="nome">Seu nome</label>
+          <input id="nome" name="nome" type="text" required minlength="2" placeholder="Informe seu nome">
+        </div>
+        <div class="form-group">
+          <label for="assunto">Tipo de solicitação</label>
+          <select id="assunto" name="assunto" required>
+            <option value="Sugestão de cafeteria">Sugestão de nova cafeteria</option>
+            <option value="Correção de endereço ou telefone">Correção de endereço ou telefone</option>
+            <option value="Envio de logotipo oficial">Envio de logotipo oficial autorizado</option>
+            <option value="Dúvida geral">Dúvida geral sobre o diretório</option>
+          </select>
+        </div>
+        <div class="form-group">
+          <label for="cidade">Cidade no Rio Grande do Sul</label>
+          <input id="cidade" name="cidade" type="text" required placeholder="Ex.: Porto Alegre, Pelotas, Caxias do Sul">
+        </div>
+        <div class="form-group">
+          <label for="mensagem">Detalhes e fonte oficial (site, endereço ou rede social)</label>
+          <textarea id="mensagem" name="mensagem" rows="5" required minlength="10" placeholder="Informe o nome comercial, endereço completo e link oficial para conferência."></textarea>
+        </div>
+        <div>
+          <button class="btn-primary" type="submit">Registrar solicitação</button>
+        </div>
+        <div id="contato-feedback" role="status" aria-live="polite" hidden></div>
+      </form>
+    </div>
+  </section>
+</main>
+<footer class="site-footer">
+  <div class="container">
+    <div class="footer-grid">
+      <div class="footer-brand">
+        <img src="../imagens/logo.webp" alt="Cafeteria Perto de Mim" width="220" height="44" loading="lazy">
+        <p><strong>Cafeteria Perto de Mim</strong> — Diretório independente de cafeterias reais em 30 municípios do Rio Grande do Sul.</p>
+        <p>Aviso de transparência: endereços, telefones e horários podem mudar sem aviso prévio. Confirme diretamente com o estabelecimento antes da visita.</p>
+      </div>
+      <div class="footer-col">
+        <h2>Diretório</h2>
+        <ul>
+          <li><a href="../index.html">Página Inicial</a></li>
+          <li><a href="../rio-grande-do-sul/index.html">Cafeterias no Rio Grande do Sul</a></li>
+          <li><a href="../paginas/como-funciona.html">Como Funciona</a></li>
+          <li><a href="../fontes-estabelecimentos.html">Fontes e Verificação</a></li>
+        </ul>
+      </div>
+      <div class="footer-col">
+        <h2>Institucional</h2>
+        <ul>
+          <li><a href="../paginas/sobre.html">Sobre</a></li>
+          <li><a href="../paginas/contato.html">Contato</a></li>
+          <li><a href="../paginas/politica-de-privacidade.html">Política de Privacidade</a></li>
+          <li><a href="../paginas/termos-de-uso.html">Termos de Uso</a></li>
+        </ul>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <p>&copy; 2026 Cafeteria Perto de Mim. Todos os direitos reservados.</p>
+      <a class="back-to-top" href="#topo">Voltar ao topo</a>
+    </div>
+  </div>
+</footer>
+<script>
+(function() {
+  var form = document.getElementById('form-contato');
+  var feedback = document.getElementById('contato-feedback');
+  if (!form || !feedback) return;
+  form.addEventListener('submit', function(ev) {
+    ev.preventDefault();
+    var nome = document.getElementById('nome').value.trim();
+    var cidade = document.getElementById('cidade').value.trim();
+    var msg = document.getElementById('mensagem').value.trim();
+    if (nome.length < 2 || cidade.length < 2 || msg.length < 10) {
+      feedback.hidden = false;
+      feedback.className = 'notice-box';
+      feedback.textContent = 'Por favor, preencha seu nome, a cidade e os detalhes completos para conferência.';
+      return;
+    }
+    feedback.hidden = false;
+    feedback.className = 'form-feedback';
+    feedback.textContent = 'Solicitação validada para ' + cidade + '. Obrigado por contribuir para manter o diretório atualizado.';
+    form.reset();
+  });
+})();
+</script>
+</body>
+</html>

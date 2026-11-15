@@ -1,0 +1,5 @@
+User-agent: *
+Allow: /
+
+# Substitua o domínio abaixo pelo domínio definitivo antes da publicação
+Sitemap: https://cafeteriapertodemim.com.br/sitemap.xml
